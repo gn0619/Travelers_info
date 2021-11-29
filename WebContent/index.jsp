@@ -7,6 +7,8 @@
 <title>메인페이지</title>
 </head>
 <body>
-
+	<div id="container">
+	
+	</div>
 </body>
 </html>
