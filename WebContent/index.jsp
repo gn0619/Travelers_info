@@ -2,13 +2,17 @@
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>메인페이지</title>
-</head>
-<body>
-	<div id="container">
-	
-	</div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>메인페이지</title>
+	</head>
+	<body>
+		<jsp:include page="header.jsp"></jsp:include>
+		<div id="container">
+		
+		</div>
+		<jsp:include page="footer.jsp"></jsp:include>
+		<script>
+		</script>
+	</body>
 </html>
