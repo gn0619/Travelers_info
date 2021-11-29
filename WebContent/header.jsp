@@ -2,5 +2,5 @@
     pageEncoding="utf-8"%>
 
 <div class="headerArea">
-
+ 헤더
 </div>

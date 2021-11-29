@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.headerArea{
+	width: 100%;
+	padding-top: 0.5em;
+	padding-bottom:0.5em;
+	min-width: 860px;
+	z-index: 100;
+}
+.footerArea{
+	width: 100%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	min-width: 860px;
+	z-index: 100;
+}
+.container{
+	width: 100%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	min-width: 860px;
+	z-index: 100;
+}

@@ -2,5 +2,5 @@
     pageEncoding="utf-8"%>
     
 <div class="footerArea">
-
+	풋터
 </div>
