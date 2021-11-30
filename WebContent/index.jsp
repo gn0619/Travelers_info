@@ -10,13 +10,49 @@
 	<body>
 		<jsp:include page="header.jsp"></jsp:include>
 		<div id="container">
-			셋팅확인중
+			
 		</div>
 		<jsp:include page="footer.jsp"></jsp:include>
-		
-		
 		<script>
-		/*JS를 이용해서 main구조 만들기 연습. JSON, XML, DAO,DTO 등 다양한 연습 계획*/
+		let container = document.getElementById("container");
+		container.appendChild(createMainLeft());
+		container.appendChild(createMainCenter());
+		container.appendChild(createMainRight());
+		//메인 좌측 메뉴 만들기.
+		function createMainLeft(){
+			let w;
+			let c;
+			let cc;
+			
+			w=document.createElement("div");
+			w.classList.add("mainLeftWrap");
+			w.classList.add("wrap");
+									
+			return w;
+		}
+		//메인 중앙 만들기
+		function createMainCenter(){
+			let w;
+			let c;
+			let cc;
+			
+			w=document.createElement("div");
+			w.classList.add("mainCenterWrap");
+			w.classList.add("wrap");
+			return w;
+		}
+		//메인 우측메뉴 만들기
+		function createMainRight(){
+			let w;
+			let c;
+			let cc;
+			
+			w=document.createElement("div");
+			w.classList.add("mainRightWrap");
+			w.classList.add("wrap");
+			
+			return w;
+		}
 		</script>
 	</body>
 </html>
